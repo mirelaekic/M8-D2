@@ -1,0 +1,30 @@
+{
+  "name": "M8-D2",
+  "version": "1.0.0",
+  "description": "Basic authorization with bcrypt",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirelaekic/M8-D2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirelaekic/M8-D2/issues"
+  },
+  "homepage": "https://github.com/mirelaekic/M8-D2#readme",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "mongoose": "^5.11.16"
+  }
+}
